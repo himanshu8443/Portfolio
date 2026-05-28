@@ -29,8 +29,7 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://www.googletagmanager.com" />
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
       </head>
-      <Script src="https://scripts.simpleanalyticscdn.com/latest.js" />
-      {/* <Script
+      <Script
         strategy="afterInteractive"
         src="https://www.googletagmanager.com/gtag/js?id=G-NRS9PX9R2K"
       />
@@ -39,7 +38,7 @@ export default function RootLayout({ children }) {
 function gtag(){dataLayer.push(arguments)}
 gtag('js', new Date());
 gtag('config', 'G-NRS9PX9R2K');`}
-      </Script> */}
+      </Script>
       <SmoothScroll />
       <body>
         <Toaster
